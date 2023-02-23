@@ -1,3 +1,6 @@
+ifndef MAIN_H
+define MIAN_H
+
 int _putchar (char c);
 
 int _isupper(int c);
@@ -20,4 +23,6 @@ void print_square(int size);
 
 void print_triangle(int size);
 
-voit print_number (int n);
+void print_number (int n);
+
+#endif
